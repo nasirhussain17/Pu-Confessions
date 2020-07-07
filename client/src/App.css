@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher");
+
+body {
+  font-family: "Philosopher";
+  background-color: #f5f8fa;
+  font-size: 16px;
+}
+.heading {
+  color: #0f4b80;
+  text-align: center;
+
+  margin: 200 200;
+  margin-top: 50px;
+
+  font-family: cursive;
+}
+.sort {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+.sort button:hover {
+  background-color: green;
+}
+.post .container {
+  background-color: rgb(234, 237, 240);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #0f4b80;
+}
+.post h4 {
+  margin-left: 0;
+  background-color: lightgrey;
+  border: 1px solid #0f4b80;
+  border-top: 0px;
+  padding: 5px;
+  text-align: center;
+}
+.post p {
+  padding: 5px;
+}
+.post h3:hover {
+  background-color: rgb(120, 120, 243);
+}
+
+.post .text-primary {
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: rgb(11, 47, 53);
+  background-color: rgb(176, 224, 236);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Pagination */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+}
+
+.pagination ul li {
+  background: #428bca;
+  padding: 5px 15px;
+  margin-right: 4px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
+  min-width: 20px;
+  text-align: center;
+  user-select: none;
+}
+
+.pagination ul li:last-child {
+  margin-right: 0px;
+}
+
+.pagination ul li:not(.active):not(.disabled) {
+  cursor: pointer;
+}
+
+.pagination ul li:not(.active):not(.disabled):hover {
+  background: #9fcaec;
+}
+
+.pagination ul li:not(.active):not(.disabled):active {
+  background: #1350ac;
+}
+
+.pagination ul li.active {
+  background: #ee2f21;
+}
+
+.pagination ul li.disabled {
+  background: #fbeaff;
+  pointer-events: none;
+}

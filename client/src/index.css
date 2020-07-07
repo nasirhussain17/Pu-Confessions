@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher");
+
+body {
+  font-family: "Philosopher";
+  font-size: 18px;
+  background-color: #f5f8fa;
+}
+.heading {
+  color: #0f4b80;
+  text-align: center;
+
+  margin: 200 200;
+  margin-top: 50px;
+
+  font-family: cursive;
+}
+.sort {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+.post .container {
+  background-color: rgb(234, 237, 240);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #0f4b80;
+}
+.post h3 {
+  margin-left: 5px;
+  background-color: lightgrey;
+  border: 1px solid #0f4b80;
+  border-top: 0px;
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  /* font-style: italic; */
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

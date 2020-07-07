@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://nasir1909:nasir@puconfessions@cluster0.qonm2.gcp.mongodb.net/puconfessions?retryWrites=true&w=majority"
+}
